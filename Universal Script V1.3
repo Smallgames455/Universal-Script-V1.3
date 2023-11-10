@@ -1,5 +1,5 @@
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
-local window = PabloLib:Create("Alexis Universe Script V1.3")
+local window = PabloLib:Create("Alexis Universe Script V1.3.1")
 
 --Tabs--
 
@@ -13,6 +13,12 @@ end)
 
 tab1:CreateButton("Fates Admin", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+local tab1 = window:CreateTab("MM2")
+
+tab1:CreateButton("Best Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
 end)
 
 local tab1 = window:CreateTab("Blade Ball")
